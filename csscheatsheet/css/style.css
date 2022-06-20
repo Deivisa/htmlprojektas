@@ -1,16 +1,94 @@
-.header{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: blue;
-    color: white;
+* {
+    margin: 0;
+    padding 0;
 }
-.header ul{
-    list-style: none;
-    margin: 0%;
+.header {
+    height: 106px;
 }
 
-.header a{
-    color: white;
-    text-decoration: none;
-    padding-left: 20px;
+.header .logo {
+    Width:147px;
+    Height:53px;
 }
+
+.header .navigation ul {
+    gap: 56px;
+
+}
+
+
+.btn.btn-danger {
+    background:#FF7000 ;
+}
+
+.header .navigation a {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+color: #333333
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px
+}
+
+.btn.btn-warning {
+    position: absolute;
+    width: 165px;
+    height: 55px;
+    background: #FF7000;
+border-radius: 5px;
+
+
+}
+
+.hero {
+    position: absolute;
+width: 2162px;
+height: 1030px;
+left: -67px;
+top: 103px;
+background: #000000
+}
+
+.hero h1 {
+    font-weight: 700;
+font-size: 54px;
+line-height: 69px;
+color: #FFFFFF
+}
+
+.hero h1 span {
+    color: #FF7000
+}
+
+.hero p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #666666;
+}
+
+.hero .description {
+    position: absolute;
+    width: 535px;
+    height: 138px;
+    left: 403px;
+    top: 509px;
+}
+
+.hero svg{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 73px;
+    top: 638px;  
+}
+  
+
